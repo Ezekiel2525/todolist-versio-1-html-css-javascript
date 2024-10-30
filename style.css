@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    padding: 20px;
+}
+
+.todoapp{
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto 30px;
+    padding: 10px 20px 30px;
+    background-color: #fff;
+}
+
+.todoapp h2 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.todoapp h2 img {
+    width: 50px;
+    margin-left: 20px;
+}
+
+#addTaskForm {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#addTaskForm input {
+    width: 75%;
+    padding: 12px 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #ccc;
+    outline: none;
+    font-weight: 600;
+    color: #000;
+}
+
+#addTaskForm button {
+    padding: 12px 25px;
+    white-space: nowrap;
+    color: #fff;
+    background-color: #6dca11;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.listitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 7px;
+    border-radius:5px;
+    border: 1px solid #555;
+    margin-bottom: 12px;
+}
+
+.edbtn {
+    width: 35px;
+    height: 35px;
+    /* padding: 10px 12px; */
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+.edbtn:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+}
+
+
+
